@@ -4,8 +4,6 @@ import time
 import datetime
 import json
 
-# TODO add scenario where there is no new weight/sleep data.add()
-
 # refresh access token if it has expired.
 if utils.exchange_code(settings.code) != '200':
     utils.Token_Refresh()
